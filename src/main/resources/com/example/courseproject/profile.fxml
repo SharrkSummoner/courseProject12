@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #bbe5f2" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.courseproject.Profile">
+    <children>
+        <ImageView fx:id="photo" fitHeight="241.0" fitWidth="244.0" layoutX="221.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="76.0" AnchorPane.topAnchor="40.0" />
+        <Text fx:id="textHi" layoutX="36.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="146.13671875" AnchorPane.leftAnchor="36.0" AnchorPane.topAnchor="40.0">
+         <font>
+            <Font size="13.0" />
+         </font></Text>
+        <Text fx:id="doljnost" layoutX="36.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="116.13671875">
+         <font>
+            <Font size="13.0" />
+         </font></Text>
+      <Button fx:id="exitBtn" layoutX="735.0" layoutY="561.0" mnemonicParsing="false" onAction="#exit" text="Выход" />
+      <Button fx:id="registerBtn" layoutX="36.0" layoutY="165.0" mnemonicParsing="false" onAction="#clientRegister" prefHeight="25.0" prefWidth="204.0" style="-fx-background-color: #426ba8;" text="Регистрация нового клиента" textFill="WHITE" />
+      <Button fx:id="appointmentBtn" layoutX="36.0" layoutY="245.0" mnemonicParsing="false" onAction="#appointmentRegister" prefHeight="25.0" prefWidth="204.0" style="-fx-background-color: #426ba8;" text="Запись на прием" textFill="WHITE" />
+      <Button fx:id="animalRegBtn" layoutX="36.0" layoutY="205.0" mnemonicParsing="false" onAction="#animalRegister" prefHeight="25.0" prefWidth="204.0" style="-fx-background-color: #426ba8;" text="Регистрация животного" textFill="WHITE" />
+      <Button fx:id="appointmentInfoBtn" layoutX="36.0" layoutY="285.0" mnemonicParsing="false" onAction="#appointmentInfo" prefHeight="25.0" prefWidth="204.0" style="-fx-background-color: #426ba8;" text="Просмотр данных о приеме" textFill="WHITE" />
+      <Button fx:id="procedureInfoBtn" layoutX="36.0" layoutY="325.0" mnemonicParsing="false" onAction="#procedureInfo" prefHeight="25.0" prefWidth="204.0" style="-fx-background-color: #426ba8;" text="Просмотр данных о процедурах" textFill="WHITE" />
+      <Button fx:id="complAppointmentBtn" layoutX="36.0" layoutY="365.0" mnemonicParsing="false" onAction="#appointmentCompl" prefHeight="25.0" prefWidth="204.0" style="-fx-background-color: #426ba8;" text="Дополнить запись о приеме" textFill="WHITE" />
+      <Button fx:id="procedureRegBtn" layoutX="36.0" layoutY="405.0" mnemonicParsing="false" onAction="#procedureRegister" prefHeight="25.0" prefWidth="204.0" style="-fx-background-color: #426ba8;" text="Запись на процедуры" textFill="WHITE" />
+    </children>
+</AnchorPane>

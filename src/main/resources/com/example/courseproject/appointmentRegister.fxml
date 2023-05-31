@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane style="-fx-background-color: #bbe5f2" prefHeight="251.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.courseproject.AppointmentRegister">
+   <children>
+      <TextField fx:id="animalId" layoutX="126.0" layoutY="79.0" promptText="ID паспорта животного" style="-fx-background-radius: 10px;"/>
+      <TextField fx:id="date" layoutX="126.0" layoutY="110.0" promptText="Дата приема" style="-fx-background-radius: 10px;"/>
+      <TextField fx:id="complaint" layoutX="126.0" layoutY="142.0" promptText="Жалоба" style="-fx-background-radius: 10px;"/>
+      <Button fx:id="submitBtn" layoutX="173.0" layoutY="203.0" mnemonicParsing="false" onAction="#appointmentRegistration" text="Запись" style="-fx-background-color: #426ba8;" textFill="WHITE"/>
+      <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" layoutX="87.0" layoutY="176.0" prefHeight="17.0" prefWidth="228.0" textAlignment="CENTER" />
+      <ComboBox fx:id="docSelect" layoutX="126.0" layoutY="47.0" prefWidth="150.0" promptText="Врач" />
+   </children>
+</AnchorPane>

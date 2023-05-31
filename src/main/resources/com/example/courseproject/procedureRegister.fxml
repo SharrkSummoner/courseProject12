@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane style="-fx-background-color: #bbe5f2" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.courseproject.ProcedureRegister">
+   <children>
+      <TextField fx:id="animalField" layoutX="126.0" layoutY="93.0" promptText="ID паспорта животного" style="-fx-background-radius: 10px;"/>
+      <TextField fx:id="dateField" layoutX="126.0" layoutY="134.0" promptText="Дата" style="-fx-background-radius: 10px;"/>
+      <TextField fx:id="procedureField" layoutX="126.0" layoutY="175.0" promptText="Процедура" style="-fx-background-radius: 10px;"/>
+      <Button layoutX="174.0" layoutY="230.0" mnemonicParsing="false" onAction="#procedureRegistration" text="Запись" style="-fx-background-color: #426ba8;" textFill="WHITE"/>
+      <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" layoutX="175.0" layoutY="205.0" prefHeight="17.0" prefWidth="55.0" textAlignment="CENTER" />
+   </children>
+</AnchorPane>

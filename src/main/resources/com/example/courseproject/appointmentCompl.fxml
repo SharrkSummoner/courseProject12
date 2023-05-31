@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane style="-fx-background-color: #bbe5f2" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.courseproject.AppointmentCompl">
+   <children>
+      <TextField fx:id="diagnosisField" layoutX="51.0" layoutY="75.0" prefHeight="25.0" prefWidth="303.0" promptText="Диагноз" style="-fx-background-radius: 10px;"/>
+      <TextArea fx:id="therapyField" layoutX="51.0" layoutY="107.0" prefHeight="92.0" prefWidth="303.0" promptText="Лечение" style="-fx-background-radius: 10px;"/>
+      <TextField fx:id="priceField" layoutX="51.0" layoutY="211.0" prefHeight="25.0" prefWidth="108.0" promptText="Цена" style="-fx-background-radius: 10px;"/>
+      <Button fx:id="submitBtn" layoutX="51.0" layoutY="267.0" mnemonicParsing="false" onAction="#appointmentComplete" text="Подтвердить" style="-fx-background-color: #426ba8;" textFill="WHITE"/>
+      <Label fx:id="label" layoutX="51.0" layoutY="243.0" />
+      <Button fx:id="printBtn" layoutX="302.0" layoutY="267.0" mnemonicParsing="false" onAction="#getReport" text="Печать" style="-fx-background-color: #426ba8;" textFill="WHITE"/>
+      <ComboBox fx:id="clientSelect" layoutX="51.0" layoutY="44.0" prefHeight="25.0" prefWidth="303.0" promptText="Выбор пациента" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: #bbe5f2" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.courseproject.Registration">
+   <children>
+      <TextField fx:id="clientId" layoutX="51.0" layoutY="46.0" promptText="ID" style="-fx-background-radius: 10px;" />
+      <TextField fx:id="clientFio" layoutX="51.0" layoutY="79.0" promptText="ФИО" style="-fx-background-radius: 10px;" />
+      <TextField fx:id="clientPhone" layoutX="51.0" layoutY="113.0" promptText="Номер телефона" style="-fx-background-radius: 10px;" />
+      <TextField fx:id="clientBirth" layoutX="51.0" layoutY="146.0" promptText="Дата рождения" style="-fx-background-radius: 10px;" />
+      <Button fx:id="registerBtn" layoutX="51.0" layoutY="182.0" mnemonicParsing="false" onAction="#clientRegistration" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: #426ba8;" text="Зарегистрировать" textFill="WHITE" />
+      <Label fx:id="regLabel" layoutX="51.0" layoutY="219.0" prefHeight="17.0" prefWidth="149.0" textFill="RED" />
+   </children>
+</AnchorPane>

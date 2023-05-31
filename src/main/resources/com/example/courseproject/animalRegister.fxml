@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane style="-fx-background-color: #bbe5f2" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.courseproject.animalRegister">
+   <children>
+      <TextField fx:id="idField" layoutX="126.0" layoutY="62.0" promptText="ID паспорта" style="-fx-background-radius: 10px;"/>
+      <TextField fx:id="nameField" layoutX="126.0" layoutY="95.0" promptText="Кличка" style="-fx-background-radius: 10px;"/>
+      <TextField fx:id="birthField" layoutX="126.0" layoutY="129.0" promptText="Дата рождения" style="-fx-background-radius: 10px;"/>
+      <TextField fx:id="speciesField" layoutX="126.0" layoutY="161.0" promptText="Вид" style="-fx-background-radius: 10px;"/>
+      <TextField fx:id="breedField" layoutX="126.0" layoutY="194.0" promptText="Порода" style="-fx-background-radius: 10px;"/>
+      <TextField fx:id="sexField" layoutX="126.0" layoutY="228.0" promptText="Пол" style="-fx-background-radius: 10px;"/>
+      <TextField fx:id="coatField" layoutX="126.0" layoutY="260.0" promptText="Окрас" style="-fx-background-radius: 10px;"/>
+      <TextField fx:id="clientIdField" layoutX="126.0" layoutY="294.0" promptText="ID клиента" style="-fx-background-radius: 10px;"/>
+      <Button fx:id="registerBtn" layoutX="140.0" layoutY="352.0" mnemonicParsing="false" onAction="#animalRegistration" text="Зарегистрировать" style="-fx-background-color: #426ba8;" textFill="WHITE"/>
+      <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" layoutX="92.0" layoutY="328.0" prefHeight="17.0" prefWidth="211.0" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
